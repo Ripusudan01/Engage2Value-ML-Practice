@@ -25,9 +25,10 @@ The goal of this project is to predict customer purchase value during user sessi
 
 ## Model and Approach
 
+- Performed in-depth exploratory data analysis (EDA) to understand data distributions, detect anomalies, and derive insights for feature creation
 - Performed extensive feature engineering to extract meaningful patterns from raw session data
-- Employed regression models including Linear Regression, Random Forest, and XGBoost Regressor
 - Used pipelines with imputation, encoding, and scaling for preprocessing
+- Employed regression models including Linear Regression, Random Forest, and XGBoost Regressor
 - Tuned models using randomized search and evaluated using r2_score as per competition guidelines
 - Achieved an R² score of **0.79075**, ranking **#3 on the leaderboard**, earning an **S grade**
 
